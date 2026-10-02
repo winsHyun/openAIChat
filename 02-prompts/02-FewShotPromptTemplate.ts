@@ -41,8 +41,8 @@ import { StringOutputParser } from "@langchain/core/output_parsers"
 
 const parser = new StringOutputParser()
 const model = new ChatOpenAI({ model: "gpt-4o-mini" })
-const result = await model.invoke(formatted)
-console.log(result)
+// const result = await model.invoke(formatted)
+// console.log(result)
 
 // const output = await parser.invoke(result)
 // console.log(output)
